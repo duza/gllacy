@@ -66,8 +66,65 @@
           </div>
         </div>
       </section>
-      <section>
+      <section class="filters-container">
         <h2 class="catalog-headline">Сливочное мороженое</h2>
+        <div class="filters">
+          <form class="filters-form" id="" action="" method="">
+            <div class="filter-item">
+              <label class="filter-headline" for="sort">
+                <h4>Сортировка</h4>
+              </label>
+              <div class="custom-dropdown">
+                <select id="sort" name="sort_by">
+                  <option label="по популярности" value="popular">по популярности</option>
+                  <option label="самое дешевое" value="lowest_price">самое дешевое</option>
+                  <option label="самое дорогое" value="highest_price">самое дорогое</option>
+                </select>
+              </div>
+            </div>
+            <div class="filter-item">
+              <h4 class="filter-headline">
+                Цена: <span class="range-values">100 руб. - 500 руб.</span>
+              </h4>
+              <input type="range" id="price-range" min="0" max="100000" step="1">
+              <input type="range" id="price-range" min="0" max="100000" step="1">
+            </div>
+            <div class="filter-item">
+              <h4 class="filter-headline">Жирность</h4>
+              <label class="radio-option" for="fat-content-1">
+                <input id="fat-content-1" type="radio" name="fat-content" value="0">0%
+              </label>
+              <label class="radio-option" for="fat-content-2">
+                <input id="fat-content-2" type="radio" name="fat-content" value="10">до 10%
+              </label>
+              <label class="radio-option" for="fat-content-3">
+                <input id="fat-content-3" type="radio" name="fat-content" value="30">до 30%
+              </label>
+              <label class="radio-option" for="fat-content-4">
+                <input id="fat-content-4" type="radio" name="fat-content" value="greater">свыше 30%
+              </label>
+            </div>
+            <div class="filter-item">
+              <h4 class="filter-headline">Наполнители:</h4>
+              <label for="filler-1">
+                <input id="filler-1" type="checkbox" name="chocolate" checked>шоколадные
+              </label>
+              <label for="filler-2">
+                <input id="filler-2" type="checkbox" name="sugar">сахарные присыпки
+              </label>
+              <label for="filler-3">
+                <input id="filler-3" type="checkbox" name="fruits" checked>фрукты
+              </label>
+              <label for="filler-4">
+                <input id="filler-4" type="checkbox" name="syrups">сиропы
+              </label>
+              <label for="filler-5">
+                <input id="filler-5" type="checkbox" name="jams">сиропы
+              </label>
+            </div>
+            <input class="btn btn__submit" type="submit" value="Применить">
+          </form>
+        </div>
       </section>
     </main>
     <footer>
