@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Gllacy Shop | Глейси - магазин мороженого</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="styles/normalize.css" />
   <link rel="stylesheet" type="text/css" media="screen" href="styles/main.css" />
   <script src="js/main.js"></script>
 </head>
@@ -50,15 +51,13 @@
       </nav>
       <div class="header-buttons">
         <div class="btn btn_small btn_search">
-          <button class="search-icon">
-            <span class="visually-hidden">Поиск</span>
-          </button>
+          <a href="#" class="search-icon">Поиск</a>
           <div class="popup">
             <input type="search" name="q" id="site-search" placeholder="Что ищем?">
           </div>
         </div>
         <div class="btn btn_small btn_enter">
-          <button class="enter-icon">Вход</button>
+          <a href="#" class="enter-icon">Вход</a>
           <div class="popup">
             <form action="" method="" id="sign-in">
               <input type="email" id="user-login" name="login" placeholder="Электронная почта">
@@ -70,7 +69,7 @@
           </div>
         </div>
         <div class="btn btn_small btn_cart">
-          <button class="basket basket__active">2 товара</button>
+          <a href="#" class="basket basket__active">Корзина</a>
           <div class="popup">
             <form id="cart" method="" action="">
               <table>
@@ -101,7 +100,6 @@
     </header>
     <main>
       <section class="breadcrumbs-container">
-        <h2 class="visually-hidden">Навигация и время работы</h2>
         <ul class="breadcrumbs-items">
           <li><a href="#">Главная</a></li>
           <li><a href="#">Каталог</a></li>
@@ -173,7 +171,6 @@
         </div>
       </section>
       <section class="container-prices">
-        <h2 class="visually-hidden">Цены на мороженое</h2>
         <div class="price-card">
           <div class="img-container">
             <img src="img/creamy-orange-circle.jpg" alt="Фото сливочного мороженого с апельсиновым джемом" class="price-img"
@@ -295,31 +292,23 @@
     </main>
     <footer>
       <div class="social">
-        <a href="#" class="social-icon twitter">
-          <span class="visually-hidden">Твиттер</span>
-        </a>
-        <a href="#" class="social-icon instagram">
-          <span class="visually-hidden">Инстаграм</span>
-        </a>
-        <a href="#" class="social-icon facebook">
-          <span class="visually-hidden">Фейсбук</span>
-        </a>
-        <a href="#" class="social-icon vkontakt">
-          <span class="visually-hidden">Вконтакте</span>
-        </a>
+        <a href="#" class="twitter">Твиттер</a>
+        <a href="#" class="instagram">Инстаграм</a>
+        <a href="#" class="facebook">Фейсбук</a>
+        <a href="#" class="vkontakt">Вконтакте</a>
       </div>
-      <ul class="footer-list">
+      <ul class="footer-nav">
         <li>
-          <a href="#" class="list-item active">Для поставщиков</a>
+          <a href="#" class="active">Для поставщиков</a>
         </li>
         <li>
-          <a href="#" class="list-item">О производстве</a>
+          <a href="#" class="active">О производстве</a>
         </li>
         <li>
-          <a href="#" class="list-item">Наши документы</a>
+          <a href="#" class="active">Наши документы</a>
         </li>
         <li>
-          <a href="#" class="list-item">Экологические стандарты</a>
+          <a href="#" class="active">Экологические стандарты</a>
         </li>
       </ul>
       <div class="copyright">
