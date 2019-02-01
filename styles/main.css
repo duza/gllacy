@@ -11,6 +11,58 @@ body {
   background-color: #849d8f;
 }
 
+a {
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(255, 255, 255, 0.3);
+}
+
+a:hover {
+  color: rgba(255, 188, 158, 255);
+  border-bottom-color: rgba(255, 188, 158, 0.3);
+}
+
+.nav ul {
+  list-style: none;
+}
+
+.nav a {
+  font-weight: 700;  
+}
+
+.nav a.active {
+  color: #ffffff;
+}
+.nav a:hover {
+  color: rgba(50, 50, 50, 255);
+  border: none;
+  background-color: #f7f6f3;  
+}
+
+.popup a {
+  font-weight: 400;
+  color: rgba(50, 50, 50, 255);
+  border: none;
+}
+
+.popup a:hover {
+  background-color: #fbded7;
+}
+
+.popup a:active {
+  background-color: #f6b5a5;
+}
+
+.popup li:first-child a{
+  font-weight: 700;
+}
+
+.popup .active {
+  color: #ffffff;
+  background-color: #d07058;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
