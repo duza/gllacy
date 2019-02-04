@@ -41,6 +41,11 @@ a:hover {
   background-color: #f7f6f3;  
 }
 
+.nav-active {
+  color: #ffffff;
+  background-color: #d07058; 
+}
+
 .popup a {
   font-weight: 400;
   color: rgba(50, 50, 50, 255);
@@ -63,6 +68,11 @@ a:hover {
   color: #ffffff;
   background-color: #d07058;
 }
+
+.popup {
+  background-color: #f8f7f4
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -72,4 +82,14 @@ a:hover {
   padding: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.btn {
+  background-color: #b0c0b7;
+}
+
+.search-icon {
+  background-image: url("../img/magnifier-icon.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
 }
